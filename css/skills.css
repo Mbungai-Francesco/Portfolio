@@ -1,5 +1,7 @@
-.left, .right{
+.left{
   padding-top: 4em;
+} .right{
+  padding-top: 5.2em;
 }
 nav li:nth-child(2) span{
   /* border-color: rgb(204, 0, 204); */

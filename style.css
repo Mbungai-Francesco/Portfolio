@@ -6,6 +6,7 @@
   transition: 0.3s ease-in;
 }
 :root{
+  --primary-color: #A4A4A4;
   --second-color: orange;
 }
 body{
@@ -33,10 +34,10 @@ li a{
   color: #1A1A1A;
 }
 .left h1:nth-child(1){
-  color: #A4A4A4;
+  color: var(--primary-color);
 }
 .left p{
-  color: #A4A4A4;
+  color: var(--primary-color);
   font-size: 1.6em;
   margin-top: 1.5em;
   width: 24.3125em;
@@ -44,7 +45,7 @@ li a{
 .grey{
   font-family: 'Segoe UI SemiBold', Tahoma, Geneva, Verdana, sans-serif;
   /* color: #1A1A1A; */
-  color: rgb(204, 0, 204);
+  /* color: rgb(204, 0, 204); */
   color: var(--second-color);
 }
 .left .btn{
@@ -119,11 +120,14 @@ nav li:nth-child(2) span, nav li:nth-child(4) span{
 nav li{
   margin: 0.3em 0;
 }
+nav li a{
+  text-transform:uppercase;
+}
 .right{
   /* border: 0;
   border-left: 2px;
   border-color: #1A1A1A;
   border-style: solid; */
-  padding: 2.3125em 0 0 3em;
+  padding: 3.5125em 0 0 3em;
   /* background-color: #1A1A1A; */
 }
