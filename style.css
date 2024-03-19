@@ -5,6 +5,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: 0.3s ease-in;
 }
+:root{
+  --second-color: orange;
+}
 body{
   display: flex;
   background-color: #F2F2F2;
@@ -42,6 +45,7 @@ li a{
   font-family: 'Segoe UI SemiBold', Tahoma, Geneva, Verdana, sans-serif;
   /* color: #1A1A1A; */
   color: rgb(204, 0, 204);
+  color: var(--second-color);
 }
 .left .btn{
   width: fit-content;
@@ -53,7 +57,8 @@ li a{
   font-family: 'Segoe UI Regular', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.7em;
   color: #F2F2F2;
-  background-color: black;
+  /* background-color: rgb(204, 0, 204); */
+  background-color: var(--second-color);
   border: 0;
   padding: 0.5em 1.5em 0.7em 1em;
   position: relative;
@@ -76,10 +81,12 @@ li a{
 .left .btn:hover > input{
   font-family: 'Segoe UI SemiBold', Tahoma, Geneva, Verdana, sans-serif;
   background-color: transparent;
-  color: rgb(204, 0, 204);
+  /* color: rgb(204, 0, 204); */
+  color: var(--second-color);
 }
 .left .btn:hover > .back{
-  border-color: rgb(204, 0, 204);
+  /* border-color: rgb(204, 0, 204); */
+  border-color: var(--second-color);
   top: 0;
   left: 0;
 }

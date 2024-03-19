@@ -1,3 +1,5 @@
 nav li:nth-child(3) span{
+  /* border-color: rgb(204, 0, 204); */
+  border-color: var(--second-color);
   width: 5em;
 }
