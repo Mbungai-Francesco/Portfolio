@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.3s ease-in;
 }
 body{
   display: flex;
@@ -57,7 +58,7 @@ li a{
   padding: 0.5em 1.5em 0.7em 1em;
   position: relative;
   z-index: 1;
-  transition: 0.3s ease-in;
+  /* transition: 0.3s ease-in; */
   border-radius: 2px;
 }
 .left .back{
@@ -69,7 +70,7 @@ li a{
   position: absolute;
   top: 1em;
   left: 1em;
-  transition: 0.3s ease-in;
+  /* transition: 0.3s ease-in; */
   border-radius: 2px;
 }
 .left .btn:hover > input{
@@ -85,6 +86,13 @@ li a{
 nav{
   margin-top: 2.7625em;
   font-size: 1.6em;
+  width: fit-content;
+}
+nav li{
+  transition: 0.3s;
+}
+nav li:hover{
+  transform: translate(3px,-5px);
 }
 nav li a{
   display: flex;
