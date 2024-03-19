@@ -27,10 +27,10 @@ li a{
 }
 .left h1{
   font-size: 2.5em;
-  color: #A4A4A4;
-}
-.left h1:nth-child(2){
   color: #1A1A1A;
+}
+.left h1:nth-child(1){
+  color: #A4A4A4;
 }
 .left p{
   color: #A4A4A4;
