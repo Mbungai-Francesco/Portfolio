@@ -1,5 +1,5 @@
 const resume = document.querySelector('.resume')
 
 resume.addEventListener('click', function (){
-  window.open('./FM.pdf','_blank')
+  window.open('./MyCV.pdf','_blank')
 })
