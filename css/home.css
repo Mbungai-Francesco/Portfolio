@@ -47,5 +47,5 @@ nav li:nth-child(1) span{
 .blocks h1{
   font-family: 'Segoe UI Regular', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3em;
-  color: var(--fourth-color);
+  color: var(--third-color);
 }
