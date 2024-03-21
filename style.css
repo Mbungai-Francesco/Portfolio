@@ -24,10 +24,30 @@
   /* orange: rgb(214, 33, 33); */
 }
 body{
+  position: relative;
   display: flex;
   background-color: var(--fourth-color);
+  z-index: 0;
   /* color: ; */
 }
+.follower{
+  position: absolute;
+  width: 3em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: var(--orange);
+  filter: blur(30px);
+  z-index: -1;
+  transition: unset;
+}
+/* @keyframes moon{
+  from{
+      transform: translateY(0);
+  }
+  to{
+    transform: translateY(-5px);
+  }
+} */
 section{
   width: 50%;
   height: 100vh;
