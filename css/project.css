@@ -30,11 +30,12 @@ nav li:nth-child(3) span{
 .blocks{
   border-radius: 2px;
   width: 75%;
-  height: 42vh;
+  height: fit-content;
   background-color:white;
   margin: auto;
   margin-bottom: 2em;
   box-shadow: 0px 2.5px 4.5px #1f1f1f78;
+  padding-bottom: .5em;
 }
 .blocks img{
   width: 100%;

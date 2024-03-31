@@ -31,7 +31,8 @@ nav{
   /* box-shadow: inset 0px -2px 5px -1px rgba(255, 165, 0, 0.25); */
   transition: 0.3s ease-in;
   display: flex;
-  padding-left: 2em;
+  justify-content: space-around;
+  /* padding-left: 2em; */
 }
 .blocks:hover{
   /* box-shadow: inset 0px 0px 5px 1px rgba(247, 0, 255, 0.5);  */
@@ -49,6 +50,9 @@ nav{
 .langs svg{
   width: 1.8em;
   aspect-ratio: 1/1;
+}
+#sass{
+  width: 2.5em;
 }
 .langs p{
   font-family: 'Segoe UI SemiBold', Tahoma, Geneva, Verdana, sans-serif;
