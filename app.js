@@ -1,9 +1,9 @@
 const resume = document.querySelector('.resume')
 const follow = document.querySelector('.follower')
 
-resume.addEventListener('click', function (){
-  window.open('./MyCV.pdf','_blank')
-})
+// resume.addEventListener('click', function (){
+//   window.open('./MyCV.pdf','_blank')
+// })
 
 // document.addEventListener("mousemove", (event) => {
 //   const x = event.clientX + document.documentElement.scrollLeft;
