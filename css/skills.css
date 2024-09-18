@@ -38,8 +38,7 @@ nav{
   /* box-shadow: inset 0px 0px 5px 1px rgba(247, 0, 255, 0.5);  */
   box-shadow: inset 0px -5px .4px -1px rgba(255, 165, 0, 0.25);
   cursor: default;
-  width: 95%;
-  transform: translate(5px,5px);
+  transform: scale(1.05);
 }
 .langs{
   width: fit-content;

@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Site showcassing my work and coding abilities",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mbungai-Francesco/Portfolio.git"
+  },
+  "author": "Forche Mbungai Francesco Asongwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mbungai-Francesco/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Mbungai-Francesco/Portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.12"
+  }
+}

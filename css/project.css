@@ -8,21 +8,21 @@ nav li:nth-child(3) span{
   border-color: var(--orange);
   width: 5em;
 }
-.block{
+.myblock{
   width: 70%;
   height: 75vh;
   background-color:transparent;
   margin: auto;
   overflow-y: scroll;
 }
-.block::-webkit-scrollbar {
+.myblock::-webkit-scrollbar {
   width: 0.75em;
 }
-.block::-webkit-scrollbar-track {
+.myblock::-webkit-scrollbar-track {
   background: var(--white);
   border-radius: 20px;
 }
-.block::-webkit-scrollbar-thumb {
+.myblock::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom,var(--third-color),var(--primary-color));
   border-radius: 20px;
   border: 2px solid var(--primary-color);
