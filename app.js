@@ -2,7 +2,7 @@ const resume = document.querySelector('.resume')
 const follow = document.querySelector('.follower')
 
 resume.addEventListener('click', function (){
-  window.open('./MyCV.pdf','_blank')
+  window.open('./FM.pdf','_blank')
 })
 
 document.addEventListener("mousemove", (event) => {
